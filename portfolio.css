@@ -1,0 +1,141 @@
+html {
+    background: lightgray;
+    /* background-image: url(/full-bloom/full-bloom.png/); */
+}
+
+body {
+    
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background:#ffffff;
+    position: sticky;
+
+    /*control what happen to the content that is too big to fit into the area*/ 
+    overflow:auto;
+
+    top: 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0;
+}
+
+span {
+    float: left;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left:355px;
+}
+
+ul {
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgrey;
+}
+
+li {
+    float: left;
+
+    /*Remove the bullet point*/
+    list-style: none;
+
+    padding: 5px;   
+}
+
+.rightborder {
+    border-right: 2px solid gray;
+}
+
+section {
+    background: #ffffff;
+    margin: 20px auto 40px auto;
+    max-width: 1200px;
+    width: 600px;
+    border: 1px solid lightgray;
+}
+.container {
+    position: relative;
+    
+}
+
+.text-block {
+   
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+
+    /*putting a text block over image by setting the block to the center*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /*set up the width to be equal with the image*/
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.portfolio {
+    background: #ffffff;
+    color: #4aaaa5;
+    justify-content: center;
+    font-size: 35px;
+    height: 40px;
+    padding: 20px 25px;
+}
+
+div {
+    color: gray;
+    margin: auto;
+    
+}   
+
+.row1 {
+    background: #ffffff;
+    display:flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.row2 {
+    background:#ffffff;
+    display:flex;
+    margin: 20px;
+
+}
+
+.row3 {
+    background: #ffffff;
+    width: 180px;
+    display:flex;
+    margin: 0 70px;
+}
+
+#img {
+    margin: 0;
+}
+
+
+footer {
+    background:grey;
+    border-top: 5px solid #4aaaa5;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+
+}
+

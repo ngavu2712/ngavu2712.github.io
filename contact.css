@@ -1,0 +1,113 @@
+html {
+    background: lightgray;
+    /* background-image: url(/full-bloom/full-bloom.png); */
+}
+
+body {
+    
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background:#ffffff;
+
+    /*Make the header fixed when you scroll down*/
+    position: sticky;
+
+    /*control what happen to the content that is too big to fit into the area*/ 
+    overflow:auto;
+
+    top: 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0;
+}
+
+span {
+    float: left;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left: 280px;
+}
+
+ul {
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgrey;
+}
+
+li {
+    float: left;
+
+    /*Remove the bullet point*/
+    list-style: none;
+
+    padding: 5px;   
+}
+
+.rightborder {
+    border-right: 2px solid gray;
+}
+
+#contact {
+    color: #4aaaa5;
+    font-size: 40px;
+}
+.container {
+    background: #ffffff;
+
+    /* Align the container in the middle of the body*/
+    margin: 50px auto 200px auto;
+
+    height: 500px;
+    width: 700px;
+    padding: 25px;
+    
+    
+}
+
+input[type=text],select, textarea {
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background:turquoise;
+}
+
+
+
+
+footer {
+    background:grey;
+    border-top: 5px solid #4aaaa5;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+}

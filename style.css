@@ -1,0 +1,96 @@
+html {
+    background: lightgray;
+    /* background-image: url(full-bloom/full-bloom.png); */
+}
+
+body {
+    
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background:#ffffff;
+    position: sticky;
+
+    /*control what happen to the content that is too big to fit into the area*/ 
+    overflow:auto;
+
+    top: 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0;
+}
+
+span {
+    float: left;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left:200px;
+}
+
+ul {
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgrey;
+}
+
+li {
+    float: left;
+
+    /*Remove the bullet point*/
+    list-style: none;
+
+    padding: 5px;   
+}
+
+.rightborder {
+    border-right: 2px solid gray;
+}
+
+section {
+    padding: 25px;
+    background: #ffffff;
+    width: 960px;
+    border: 1px solid lightgrey; 
+    margin: 100px 200px;
+    max-width: 1200px;
+    height: 500px;
+    
+    
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.aboutme {
+    color: #4aaaa5;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+
+
+
+footer {
+    background:grey;
+    border-top: 5px solid #4aaaa5;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+
+}
+
